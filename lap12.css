@@ -1,0 +1,19 @@
+style 
+.body {
+    margin: 10px;
+    padding: 5px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.p {
+    margin: 10px;
+    padding: 10px;
+    text-align: right;
+}
+body {
+    margin: 10px;
+    padding: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: antiquewhite;
+    border: 5px;
+}

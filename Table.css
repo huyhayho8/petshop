@@ -1,0 +1,13 @@
+style
+tr:first-child{
+    background-color: green;
+}
+tr:nth-child(2n){
+    background-color: greenyellow;
+}
+tr:first-child{
+    background-color: green;
+}
+tr{
+    border: 1px solid green;
+}

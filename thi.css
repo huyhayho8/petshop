@@ -1,0 +1,147 @@
+style body {
+    text-align: center;
+}
+.container{
+    width: 100%;
+    height: auto;
+}
+body{
+    padding: 0px;
+    margin: 0px;
+}
+.menu>ul>li {
+    display: inline-block;
+    position: relative;
+}
+
+.menu>ul>li>a {
+    display: block;
+}
+
+.menu>ul {
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+    border-radius: 3px;
+    background-color: orangered;
+    text-align: center;
+}
+
+.menu>ul>li>a {
+    text-decoration: none;
+    font-variant: small-caps;
+    font-size: larger;
+    color: white;
+    padding: 0 10px;
+    line-height: 40px;
+}
+
+.menu>ul>li>a:hover {
+    color: gainsboro;
+}
+
+.menu ul ul {
+    position: absolute;
+    display: none;
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+    border-radius: 3px;
+    width: 200px;
+    background-color: white;
+    box-shadow: 0 0 1px gray;
+}
+
+.menu ul ul a {
+    display: block;
+    line-height: 30px;
+    color: orangered;
+    text-decoration: none;
+    font-variant: small-caps;
+    font-size: larger;
+    padding: 0 10px;
+}
+
+.menu>ul>li:hover>ul {
+    display: block;
+}
+
+.menu ul ul a:hover {
+    background-color: orangered;
+    color: white;
+}
+#wrapper{
+    max-width: 1400px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.headline{
+    margin: 40px 0;
+    text-align: center;
+}
+h1{
+    padding: 10px;
+    text-align: center;
+    display: inline-block;
+    text-transform: uppercase;
+    border: 2px solid black;
+    font-size: 30px;
+    color: #27209b;
+    font-weight: 600px;
+}
+.products{
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.products li{
+    padding: 20px;
+    border-radius: 10px;
+    display: inline-block;
+    border: 2px solid gainsboro;
+    margin-bottom: 30px;
+    box-sizing: border-box;
+    flex-basis: 25%;
+}
+.products li img{
+    border-style: none;
+    box-sizing: border-box;
+    max-width: 80%;
+    height: auto;
+}
+.products li img:hover{
+    transform: scale(1.2);
+    transition-duration: 0.5s;
+    opacity: 80%;
+}
+.product-info{
+    padding: 15px 0;
+}
+.product-info a{
+    display: block;
+    text-decoration: none;
+}
+.product-name{
+    text-transform: uppercase;
+    color: #4757a7;
+    font-weight: 500px;
+    padding: 3px 0;
+    text-decoration: none;
+}
+.product-name:hover{
+    filter: opacity(80%);
+    color: #b1181a;
+}
+.product-price{
+   color:  #b1181a;
+   padding: 3px 0;
+   font-weight: 1000px;
+}
+span{
+    text-decoration: line-through;
+    color: gray;
+}
+

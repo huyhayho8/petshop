@@ -1,0 +1,17 @@
+style
+tr:first-child{
+    background-color: beige;
+}
+
+
+tr{
+    border: 1px solid cornflowerblue;
+    font-weight: 100;
+    font-variant: small-caps;
+}
+tr:first-child{
+    background-color: rgb(220, 222, 245);
+}
+tr:nth-child(2n){
+    background-color: pink;
+}
